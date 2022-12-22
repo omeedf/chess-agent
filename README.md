@@ -9,7 +9,7 @@ the minimax algorithm with alpha-beta pruning and scout (principal variation sea
 The game itself is modeled using the python-chess library, which provides a lot of functionality 
 such as determining possible (legal) moves, simulating a board, making moves on the board, keeping
 track of piece position, and more. This library was very helpful in allowing us to keep our main focus
-on implementing the algorithms for the agent.
+on implementing the algorithms for the agent. 
 
 For the algorithms, we implemented the minimax algorithm with alpha-beta pruning and scout, which both 
 search to a depth of 4. For both of these agents, the depth increases as it gets closer to end game positions,
