@@ -1,5 +1,5 @@
 # Chess Agent: Minimax with Alpha-Beta Pruning & Scout
-### Omeed Fallahi and Paul Miller-Schmidt
+#### Omeed Fallahi and Paul Miller-Schmidt
 
 ## Summary of Project
 
