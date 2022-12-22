@@ -1,0 +1,2 @@
+chess==1.9.3
+chess_board==0.3.1
