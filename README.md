@@ -3,7 +3,7 @@
 
 ## Summary of Project
 
-For our final project, we created a chess agent that plays the game using two main algorithms:
+For our final project in CPSC 474, we created a chess agent that plays the game using two main algorithms:
 the minimax algorithm with alpha-beta pruning and scout (principal variation search). 
 
 The game itself is modeled using the python-chess library, which provides a lot of functionality 
