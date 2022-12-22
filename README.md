@@ -17,7 +17,7 @@ as the branching factor shrinks. While both of these algorithms rely primarily o
 to make moves much faster than the minimax agent by 1) ordering moves prior to search using a simple material 
 heuristic and 2) never examining a node that can be pruned using alpha-beta. We also created two additional 
 basic agents (random and greedy) which we used to test our alpha-beta and scout agents against as well.
------------------------------------------------------------------------------------------------------
+
 ## Running and Testing the Program
 
 We wrote and tested our program using Python 3.9. It is necessary to install a couple packages that our program 
