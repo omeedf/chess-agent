@@ -24,15 +24,15 @@ We wrote and tested our program using Python 3.9. It is necessary to install a c
 relies on. To do this, run the following command from the project directory which installs the packages listed 
 in the requirements.txt file.
 
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
 
 Next, you can run the program using the following command:
 
-    `python3 main.py --P1 {player1_agent} --P2 {player2_agent} --games {int} [--viz]`
+    python3 main.py --P1 {player1_agent} --P2 {player2_agent} --games {int} [--viz]
 
 For example, to have the scout agent play against the greedy against for a total of 5 games, enter the command:
     
-    `python3 main.py --P1 scout --P2 greedy --games 5`
+    python3 main.py --P1 scout --P2 greedy --games 5
 
 The choices for player agents are: minimax, scout, greedy, and random.
 
@@ -40,7 +40,7 @@ The optional --viz parameter launches a visualization of the board and shows mov
 is nice to use if you would like to watch the agents play against each other, observing the moves they make. An
 example of a visualized game would use the following command:
 
-    `python3 main.py --P1 scout --P2 greedy --games 5 --viz`
+    python3 main.py --P1 scout --P2 greedy --games 5 --viz
 
 It is important to note that, in all cases, P1 is the maximizing player and controls the white pieces while P2
 is the minimizing player and controls the black pieces.
@@ -51,49 +51,49 @@ Here are some results from running the program against itself using various comb
 such as minimax v. random, minimax v. greedy, scout v. random, scout v. greedy, and scout v. minimax
 across hundreds of games.
 
-    Minimax v. Random, 250 games (`python3 main.py --P1 minimax --P2 random --games 250`)
+    Minimax v. Random, 250 games (python3 main.py --P1 minimax --P2 random --games 250)
     Player 1 wins: 250
     Player 2 wins: 0
     Draws / stalemates: 0
     Completed in 2471.94 seconds
     -> Player 1 (minimax) has a win rate of 100%
 
-    Minimax v. Greedy, 250 games (`python3 main.py --P1 minimax --P2 greedy --games 250`)
+    Minimax v. Greedy, 250 games (python3 main.py --P1 minimax --P2 greedy --games 250)
     Player 1 wins: 250
     Player 2 wins: 0
     Draws / stalemates: 0
     Completed in 2918.05 seconds
     -> Player 1 (minimax) has a win rate of 100%
 
-    Scout v. Random, 250 games (`python3 main.py --P1 scout --P2 random --games 250`)
+    Scout v. Random, 250 games (python3 main.py --P1 scout --P2 random --games 250)
     Player 1 wins: 249
     Player 2 wins: 0
     Draws / stalemates: 1
     Completed in 617.31 seconds
     -> Player 1 (scout) has a win rate of 99.6%
 
-    Scout v. Greedy, 250 games (`python3 main.py --P1 scout --P2 greedy --games 250`)
+    Scout v. Greedy, 250 games (python3 main.py --P1 scout --P2 greedy --games 250)
     Player 1 wins: 248
     Player 2 wins: 0
     Draws / stalemates: 2
     Completed in 1542.87 seconds
     -> Player 1 (scout) has a win rate of 99.2%
 
-    Scout v. Minimax, 10 games (`python3 main.py --P1 scout --P2 minimax --games 10`)
+    Scout v. Minimax, 10 games (python3 main.py --P1 scout --P2 minimax --games 10)
     Player 1 wins: 6
     Player 2 wins: 2
     Draws / stalemates: 2
     Completed in 962.95 seconds
     -> Player 1 (scout) has a 60% win rate
 
-    Scout v. Minimax, 20 games (`python3 main.py --P1 scout --P2 minimax --games 20`)
+    Scout v. Minimax, 20 games (python3 main.py --P1 scout --P2 minimax --games 20)
     Player 1 wins: 11
     Player 2 wins: 8
     Draws / stalemates: 1
     Completed in 1638.62 seconds
     -> Player 1 (scout) has a 55% win rate
 
-    Scout v. Minimax, 100 games (`python3 main.py --P1 scout --P2 minimax --games 100`)
+    Scout v. Minimax, 100 games (python3 main.py --P1 scout --P2 minimax --games 100)
     Player 1 wins: 41
     Player 2 wins: 44
     Draws / stalemates: 15
