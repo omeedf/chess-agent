@@ -1,6 +1,6 @@
 # Chess Agent: Minimax with Alpha-Beta Pruning & Scout
 ## Omeed Fallahi and Paul Miller-Schmidt
------------------------------------------------------------------------------------------------------
+
 ## Summary of Project
 
 For our final project, we created a chess agent that plays the game using two main algorithms:
