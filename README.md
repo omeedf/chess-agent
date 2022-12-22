@@ -44,7 +44,7 @@ example of a visualized game would use the following command:
 
 It is important to note that, in all cases, P1 is the maximizing player and controls the white pieces while P2
 is the minimizing player and controls the black pieces.
------------------------------------------------------------------------------------------------------
+
 ## Results and Evaluation
 
 Here are some results from running the program against itself using various combinations of matchups, 
